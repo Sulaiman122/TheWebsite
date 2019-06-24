@@ -4,12 +4,197 @@
 	<title>Bootstrap Project</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+
+	<link rel="stylesheet" href="footer.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
-<button class="btn btn-success">Click</button>
 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">إستشارات تقنية</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">المميزات</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          الخدمات
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">بناء موقع إلكتروني</a>
+          <a class="dropdown-item" href="#">بناء تطبيق اندرويد</a>
+          <a class="dropdown-item" href="#">بناء تطبيق iOS</a>
+        </div>
+      </li>
+      <li class="nav-item active" id="homeNav">
+        <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <a class="navbar-brand" href="#">إصنع موقعك</a>
+  </div>
+</nav>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="bb.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+    <h3>صمم مواقع الويب</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ss.jpg" alt="Chicago">
+      <div class="carousel-caption">
+    <h3>برمجة تطبيقات اندرويد</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="bb.jpg" alt="New York">
+      <div class="carousel-caption">
+    <h3>برمجة تطبيقات ايفون</h3>
+    <p>We had such a great time in LA!</p>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">خدماتنا</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumb" src="4.png">
+            <h3 class="h4 mb-2">حلول وإستشارات تقنية</h3>
+            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumb" src="3.png">
+            <h3 class="h4 mb-2">حلول التجارة الإلكترونية</h3>
+            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumb" src="2.png">
+            <h3 class="h4 mb-2">تطوير تطبيقات الهواتف الذكية</h3>
+            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumb" src="1.png">
+            <h3 class="h4 mb-2">تصميم وتطوير مواقع الإنترنت</h3>
+            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="page-section" id="features">
+    <div class="container sec2">
+      <h2 class="text-center mt-0">بماذا نتميز</h2>
+      <hr class="divider my-3">
+      <div class="row">
+
+      	        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumbb" src="11.png">
+            <h3 class="h4 mb-2">أفضل المصممين</h3>
+            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumbb" src="22.png">
+            <h3 class="h4 mb-2">أحدث وأفضل تقنيات الويب</h3>
+            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+          </div>
+        </div>
+                <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="thumbb" src="33.png">
+            <h3 class="h4 mb-2">أسعار تنافسية ورخيصة</h3>
+            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+<footer class="footer-distributed">
+			<div class="footer-left">
+				<h3>إصنع موقعك</h3>
+				<p class="footer-links">
+					<a href="#">Home</a>
+					<a href="#">Blog</a>
+					<a href="#">Pricing</a>
+					<a href="#">About</a>
+					<a href="#">Faq</a>
+					<a href="#">Contact</a>
+				</p>
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+			</div>
+			<div class="footer-center">
+				<h2 class="footer-links">:تواصل معنا</h2>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>21 Revolution Street</span> Paris, France</p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>عن الشركة</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+				</div>
+			</div>
+		</footer>
 </body>
 </html>
